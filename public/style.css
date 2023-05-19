@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(119, 136, 153);
+}
+
+h1, h2, h3 {
+    color: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#homePage {
+    color: lightblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: xx-large;
+}
+
+#homePage:hover {
+    text-decoration: underline;
+}
+
+ul, li {
+    list-style: none;
+}
+
+#officeS1 {
+    padding-top: 10px;
+    width: 10%;
+    height: auto;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+#offices1Title {
+    color: yellow;
+    font-size: small;
+    text-decoration: none;
+}
+
+#offices1Title:hover {
+    text-decoration: underline;
+}
+
+#tvshowList {
+    border: 3px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+#tvshowsSelection {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+}
+
+#offices1e1 {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Mobile-friendly styles */
+@media (max-width: 767px) {
+    #officeS1 {
+        width: 100%;
+        max-width: none; /* Remove the maximum width on mobile */
+    }
+}
